@@ -1,0 +1,5 @@
+{
+  "close_void_tags": true,
+  "ignore": "H016,H023,H030,H031,H006",
+  "profile": "django"
+}
