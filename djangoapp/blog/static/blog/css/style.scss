@@ -1,0 +1,80 @@
+@import "./variables";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $clr-white;
+  color: $clr-black;
+  font-size: 20px; /* Fallback value */
+  font-size: $fs-base;
+  font-family: $ff-regular;
+  line-height: $lh-regular;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: $clr-primary;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $clr-primary-dk;
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $ff-headings;
+  line-height: $lh-headings;
+  margin: $spacing-base 0;
+}
+
+h1 {
+  font-size: 44px; /* Fallback value */
+  font-size: $fs-h1;
+}
+
+h2 {
+  font-size: 38px; /* Fallback value */
+  font-size: $fs-h2;
+}
+
+h3 {
+  font-size: 34px; /* Fallback value */
+  font-size: $fs-h3;
+}
+
+h4 {
+  font-size: 28px; /* Fallback value */
+  font-size: $fs-h4;
+}
+
+h5 {
+  font-size: 24px; /* Fallback value */
+  font-size: $fs-h5;
+}
+
+h6 {
+  font-size: 20px; /* Fallback value */
+  font-size: $fs-h6;
+}
+
+pre {
+  max-width: 100%;
+  overflow-x: auto;
+  line-height: $lh-mono;
+  font-size: $fs-sm;
+}
+
+pre,
+code {
+  font-family: $ff-mono;
+}
