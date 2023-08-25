@@ -27,6 +27,9 @@
     "**/templates/**/*": "django-txt",
     "**/requirements{/**,*}.{txt,in}": "pip-requirements"
   },
+  "[html][django-html][handlebars][hbs][mustache][jinja][jinja-html][nj][njk][nunjucks][twig]": {
+    "editor.defaultFormatter": "monosans.djlint"
+  },
 
   "python.defaultInterpreterPath": "./venv/bin/python",
   "python.analysis.typeCheckingMode": "basic",
@@ -143,7 +146,7 @@
     ["<", ">"], // HTML/XML Tags
     ["\"", "\""], // String Quotations
     ["_", "_"], // Markdown: Italicized
-    ["**", "**"], // Markdown: Bold
+    // ["**", "**"], // Markdown: Bold
     ["**_", "_**"], // Markdown: Italicized & Bold
     // ["{{", "}}"], // Double Curly Brackets
     ["`", "`"], // Back-tics

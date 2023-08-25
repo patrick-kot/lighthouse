@@ -2,16 +2,29 @@
 $hue: 213;
 $saturation: 100%;
 
+$sat-gray: 10%;
+
+$clr-whitest: hsl($hue $saturation 100%);
 $clr-white: hsl($hue $saturation 98%);
 $clr-black: hsl($hue $saturation 5%);
+$clr-black-10: hsl($hue $saturation 5% / 0.1);
+$clr-black-30: hsl($hue $saturation 5% / 0.3);
 
-$clr-primary: hsl($hue $saturation 50%);
-$clr-primary-lt: hsl($hue $saturation 60%);
-$clr-primary-ltr: hsl($hue $saturation 70%);
 $clr-primary-ltst: hsl($hue $saturation 80%);
+$clr-primary-ltr: hsl($hue $saturation 70%);
+$clr-primary-lt: hsl($hue $saturation 60%);
+$clr-primary-base: hsl($hue $saturation 50%);
 $clr-primary-dk: hsl($hue $saturation 40%);
 $clr-primary-dkr: hsl($hue $saturation 30%);
 $clr-primary-dkst: hsl($hue $saturation 20%);
+
+$clr-gray-ltst: hsl($hue $sat-gray 90%);
+$clr-gray-ltr: hsl($hue $sat-gray 80%);
+$clr-gray-lt: hsl($hue $sat-gray 70%);
+$clr-gray-base: hsl($hue $sat-gray 50%);
+$clr-gray-dk: hsl($hue $sat-gray 30%);
+$clr-gray-dkr: hsl($hue $sat-gray 20%);
+$clr-gray-dkst: hsl($hue $sat-gray 10%);
 
 // Font-family
 $ff-regular: Georgia, "Times New Roman", Times, serif;
@@ -41,6 +54,7 @@ $lh-headings: 1.2;
 $lh-mono: 1.2;
 
 // Spacings
+$spacing-micro: 0.8rem;
 $spacing-smlst: 1.5rem;
 $spacing-smlr: 2rem;
 $spacing-sm: 2.5rem;
@@ -52,3 +66,6 @@ $spacing-bgst: 6rem;
 // max-width
 $mw-grid: 120rem;
 $mw-post: 90rem;
+
+// Border Radius
+$br-base: 0.4rem;
