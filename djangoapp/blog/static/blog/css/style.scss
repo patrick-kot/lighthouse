@@ -16,6 +16,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+img {
+  margin: 0 auto;
+}
+
 a {
   color: $clr-primary-base;
   text-decoration: none;
@@ -71,7 +75,7 @@ pre {
   max-width: 100%;
   overflow-x: auto;
   line-height: $lh-mono;
-  font-size: $fs-sm;
+  font-size: $fs-smlr;
 }
 
 pre,
@@ -84,6 +88,12 @@ input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   -webkit-appearance: none;
+}
+
+// CodeMirror
+.CodeMirror {
+  height: auto !important;
+  font-size: $fs-smlr !important;
 }
 
 // Blog
