@@ -255,7 +255,7 @@ html,
 
 // Single Post
 .single-post-content {
-  padding-top: $spacing-smlst;
+  padding-top: $spacing-sm;
 }
 
 .single-post-title,
@@ -297,6 +297,7 @@ html,
   flex-flow: row wrap;
   align-items: center;
   gap: $spacing-smlst;
+  line-height: 1;
 }
 
 .post-tags .post-tag-link,
@@ -315,7 +316,7 @@ html,
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  gap: $spacing-micro;
+  gap: $spacing-nano;
 }
 
 // Pagination
