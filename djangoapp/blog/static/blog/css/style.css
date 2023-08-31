@@ -129,6 +129,10 @@ html,
   padding-bottom: 3rem;
 }
 
+.mt-base {
+  margin-top: 3rem;
+}
+
 .center {
   text-align: center;
 }
